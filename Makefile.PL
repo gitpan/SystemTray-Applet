@@ -9,8 +9,7 @@ if( $^O eq "MSWin32" )
 	my $answer = prompt( "Do you want to install SystemTray::Applet::Win32?" , "y" );
 	if( $answer =~ /y/i )
 	{
-		#push( @libs , "SystemTray::Applet::Win32" );
-		prompt( "Too bad as it hasn't been written yet , it will be he soon I hope , are you happy?" , "n" );
+		push( @libs , "SystemTray::Applet::Win32" );
 	}
 }
 else
